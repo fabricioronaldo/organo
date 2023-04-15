@@ -1,17 +1,17 @@
-.form__campo label {
+
+.lista-suspensa label{
     display: block;
     font-size: 18px;
     color: #212121;
     margin-bottom: 8px;
 }
 
-.form__campo input {
+.lista-suspensa select {
     width: 100%;
     background-color: #fff;
     padding: 21px;
     border: none;
     box-shadow: 10px 10px 10px rgba(0, 0, 0,0.06);
     box-sizing: border-box;
-    
-
 }
+
