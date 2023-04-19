@@ -1,3 +1,4 @@
+import Botao from '../Botao';
 import CampoTexto from '../CompoTexto/CampoTexto';
 import ListaSuspensa from '../ListaSuspensa';
 import './formulario.css';
@@ -12,6 +13,7 @@ const Formulario = () => {
                 <CampoTexto label="Cargo" placeholder="Digite seu cargo"/>
                 <CampoTexto label="Imagem"placeholder="Informe o endereço de imagem"/>
                 <ListaSuspensa label="Time" itens={times}/>
+                <Botao texto="Criar Card" />
             </form>
         </section>
     )
